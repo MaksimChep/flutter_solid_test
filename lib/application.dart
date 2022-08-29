@@ -17,7 +17,10 @@ class Application extends StatelessWidget {
           },
         )
       ],
-      child: const MaterialApp(home: HomeScreen()),
+      child: const MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: HomeScreen(),
+      ),
     );
   }
 }
